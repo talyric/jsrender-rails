@@ -30,7 +30,7 @@ $(body).append($.render["views/user"]({name:"Sebastian Pape"}));
 If the path to all of your views/templates have a common prefix that you prefer is not included in the template's name, you can set this option in `config/application.rb`:
 
 ```ruby
-config.jsrender.prefix = "views"
+config.jsRender.prefix = "views"
 ```
 
 That would change the previous example to this:
@@ -42,7 +42,7 @@ $(body).append($.render["user"]({name:"Sebastian Pape"}));
 The prefix can also be a regular expression. For example, to use only the name of the file for the template name, regardless of directory structure:
 
 ```ruby
-config.jsrender.prefix = %r{([^/]*/)*}
+config.jsRender.prefix = %r{([^/]*/)*}
 ```
 
 ## Acknowledgements

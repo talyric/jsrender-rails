@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = "jsRender-rails"
-  s.version     = "0.9.1"
+  s.version     = "0.9.2"
   s.authors     = ["Sebastian Pape"]
   s.email       = ["email@sebastianpape.com"]
   s.homepage    = "https://github.com/spape/jsRender-rails"
