@@ -9,7 +9,7 @@ describe JsRenderRails::JsRender do
 
   it "compiles templates with the .tmpl extension" do
     template = Rails.application.assets["views/user"]
-    template.to_s.should == %{jQuery.templates("views/user", "<div class=\\\"user\\\">{{>name}}<\\/div>\\n");}
+    template.to_s.should == %{$.templates("views/user", "<div class=\\\"user\\\">{{>name}}<\\/div>\\n");}
   end
 
   context "when prefix is set" do
