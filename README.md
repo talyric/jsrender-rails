@@ -45,12 +45,18 @@ The prefix can also be a regular expression. For example, to use only the name o
 config.jsRender.prefix = %r{([^/]*/)*}
 ```
 
-## Acknowledgements
+## Compatible with jQuery Templates?
 
-This is not compatible with jQuery Templates!
+For sure NOT!
+
+## HAML
 
 If you like to use haml in your jsRender templates I highly recommend [haml_assets](https://github.com/infbio/haml_assets).
 
-The idea to easily adding JavaScript templates to the Rails Asset-Pipeline comes from [jimmycuadra/jquery-tmpl-rails](https://github.com/jimmycuadra/jquery-tmpl-rails) and was adopted here to work with jsRender.
+## Acknowledgements
+
+jsRender was created by [Boris Moore](https://github.com/BorisMoore).
+
+The idea to easily adding jQuery templates to the Rails Asset-Pipeline comes from [jimmycuadra/jquery-tmpl-rails](https://github.com/jimmycuadra/jquery-tmpl-rails) and was adopted here to work with jsRender.
 
 The Sprockets engine was originally derived from the [sprockets-jquery-tmpl](https://github.com/rdy/sprockets-jquery-tmpl) gem. If you want a similar mechanism for use outside of Rails, take a look at this project.
