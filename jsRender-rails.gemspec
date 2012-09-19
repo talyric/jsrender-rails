@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.version     = "0.9"
   s.authors     = ["Sebastian Pape"]
   s.email       = ["email@sebastianpape.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/spape/jsRender-rails"
   s.summary     = %q{jsRender templates added to the Rails asset pipeline automatically.}
   s.description = %q{This gem adds jsRender (next generation of jQuery Templates) and a corresponding Sprockets engine to the asset pipeline for Rails >= 3.1 applications.}
 
