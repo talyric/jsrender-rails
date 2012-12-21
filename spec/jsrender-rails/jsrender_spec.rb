@@ -3,7 +3,7 @@ require "spec_helper"
 describe JsRenderRails::JsRender do
   before { Rails.application.assets.cache = {} }
 
-  it "adds jsRender to the load path" do
+  it "adds jsrender to the load path" do
     Rails.application.assets["jsrender"].should_not be_nil
   end
 
@@ -14,13 +14,13 @@ describe JsRenderRails::JsRender do
 
   context "when prefix is set" do
     it "removes the prefix from the template name" do
-      Rails.configuration.jsRender.prefix = "views"
+      Rails.configuration.jsrender.prefix = "views"
       template = Rails.application.assets["views/user"]
       template.to_s.should include('"user"')
     end
 
     it "normalizes template prefixes by removing extraneous slashes" do
-      Rails.configuration.jsRender.prefix = "/views/"
+      Rails.configuration.jsrender.prefix = "/views/"
       template = Rails.application.assets["views/user"]
       template.to_s.should include('"user"')
     end

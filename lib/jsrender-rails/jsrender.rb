@@ -12,7 +12,7 @@ module JsRenderRails
     end
 
     def prepare
-      @prefix = normalize_prefix(Rails.configuration.jsRender.prefix)
+      @prefix = normalize_prefix(Rails.configuration.jsrender.prefix)
     end
 
     def evaluate(scope, locals, &block)

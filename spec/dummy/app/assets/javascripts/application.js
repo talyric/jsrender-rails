@@ -1,2 +1,2 @@
-//= require jsRender-rails
+//= require jsrender-rails
 //= require_tree ./views
